@@ -1,0 +1,22 @@
+%YAML 1.1
+# This file defines Turtlebot3 model generation.
+---
+project: Turtlebot3
+packages:
+        - turtlebot3_example
+configurations:
+        example:
+           launch:
+                - turtlebot3_example/launch/interactive_markers.launch
+                - turtlebot3_example/launch/turtlebot3_bumper.launch
+                - turtlebot3_example/launch/turtlebot3_client.launch
+                - turtlebot3_example/launch/turtlebot3_cliff.launch
+                - turtlebot3_example/launch/turtlebot3_illumination.launch
+                - turtlebot3_example/launch/turtlebot3_obstacle.launch
+                - turtlebot3_example/launch/turtlebot3_pointop_key.launch
+                - turtlebot3_example/launch/turtlebot3_sonar.launch
+analysis:
+     ignore:
+        tags:
+           - formatting
+           - copyright
