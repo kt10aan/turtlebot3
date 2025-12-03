@@ -1,0 +1,17 @@
+%YAML 1.1
+# This file defines simple uqality of code tests.
+---
+project: Turtlebot3
+packages:
+        - turtlebot3_bringup
+        - turtlebot3
+        - turtlebot_navigation
+        - turtlebot3_example
+        - turtlebot3_slam
+        - turtlebot3_teleop
+        - turtlebot3_description
+analysis:
+        ignore:
+                tags:
+                - formatting
+                - copyright
