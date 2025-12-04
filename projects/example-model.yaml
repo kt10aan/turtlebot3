@@ -20,4 +20,5 @@ analysis:
         tags:
            - formatting
            - copyright
-           - halstead-bugs
+           - halstead
+           - halstead-volume
